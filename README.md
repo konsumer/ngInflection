@@ -35,7 +35,10 @@ Use it in your templates, like this:
 [ngPluralize](https://docs.angularjs.org/api/ng/directive/ngPluralize) is useful for outputting numeric amounts of things.  If the name of the thing is unknown, and could be plural or singular, and the amount is unknown, you can use ngInflection with ngPluralize to work out the permutations of the string.  Here is a cool example:
 
 ```html
-<ng-pluralize count="fruitCount"  when="{'0': 'No {{fruitType | pluralize | titleize}}', '1': 'One {{fruitType | singularize | titleize}}', 'other': '{} {{fruitType | pluralize | titleize}}'}"></ng-pluralize>
+<ng-pluralize count="fruitCount"  when="{
+	'0': 'No {{fruitType | pluralize | titleize}}',
+	'1': 'One {{fruitType | singularize | titleize}}',
+	'other': '{} {{fruitType | pluralize | titleize}}'}"></ng-pluralize>
 ```
 
 *  If fruitCount=0 & fruitType='apple', you get 'No Apples'
