@@ -203,7 +203,7 @@ I didn't include usage notes on these, because I couldn't think of good use-case
 
 #### [indexOf](https://github.com/dreamerslab/node.inflection#inflectionindexof-arr-item-fromindex-comparefunc-)
 
-This did not seem super-useful in the context of an angular string filter, but you could probably use it in some clever way with an array of objects.
+This lets us detect if an Array contains a given element. This did not seem super-useful in the context of an angular string filter, but you could probably use it in some clever way with an array of objects.
 
 
 #### [transform](https://github.com/dreamerslab/node.inflection#inflectiontransform-str-arr-)
