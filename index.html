@@ -22,7 +22,12 @@
 		</div>
 
 		<div class="container">
-			<p>You have <ng-pluralize count="thingCount"  when="{'0': 'no {{thing | pluralize}}','1': 'one {{thing | singularize}}','other': '{} {{thing | pluralize}}'}"></ng-pluralize>.</p>
+			<p>You have
+				<ng-pluralize count="thingCount"  when="{
+					'0': 'no {{thing | pluralize}}',
+					'1': 'one {{thing | singularize}}',
+					'other': '{} {{thing | pluralize}}'
+				}"></ng-pluralize>.</p>
 			
 			<ul>
 				<li>The plural of "{{thing}}" is "<code>{{ thing | pluralize }}</code>"</li>
