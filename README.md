@@ -6,14 +6,15 @@ Angular filters for [inflection](https://github.com/dreamerslab/node.inflection)
 
 Install it with bower, like this: `bower install --save ngInflection`
 
-I use [brunch](http://brunch.io/), so this automatically ends up in my bower include. For others you may need to load script tags.
+I use [brunch](http://brunch.io/), so this automatically ends up in my bower include. For others you may need to load script tags with your `bower_components`.
 
-If you don't use bower, you can include it in your app, like this:
+Here is an example using script tags from CDNs for the whole stack:
 
 ```html
-CODE GOES HERE
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+<script src="https://cdn.rawgit.com/dreamerslab/node.inflection/master/inflection.min.js"></script>
+<script src="https://cdn.rawgit.com/konsumer/ngInflection/master/ngInflection.js"></script>
 ```
-
 
 Once you have the code loaded, add it to your app, along with your other Angular dependencies:
 
