@@ -10,7 +10,7 @@ Install it with bower, like this: `bower install --save ngInflection`
 
 I use [brunch](http://brunch.io/), so this automatically ends up in my bower include. For others you may need to load script tags with your `bower_components`.
 
-Here is an example using script tags from CDNs for the whole stack:
+Here is an example using script tags from CDNs for the whole stack, without bower:
 
 ```html
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
