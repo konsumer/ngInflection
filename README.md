@@ -33,7 +33,7 @@ Use it in your templates, like this:
 {{ myThing | pluralize | titleize }}
 ```
 
-You can see more examples in [index.html](https://github.com/konsumer/ngInflection/blob/master/index.html).
+You can see more examples in [index.html](https://github.com/konsumer/ngInflection/blob/gh-pages/index.html).
 
 ### ngPluralize
 
