@@ -16,7 +16,7 @@
 
 				<div class="form-group">
 					<label for="thingCount">Thing Count</label>
-					<input type="text" class="form-control" id="thingCount" ng-model="thingCount">
+					<input type="number" class="form-control" id="thingCount" ng-model="thingCount">
 				</div>
 			</div>
 		</div>
@@ -58,7 +58,7 @@
 		var app = angular.module('app', ['ngInflection']);
 		app.controller('TesterCtl', function($scope){
 			$scope.thing = 'person';
-			$scope.thingCount = 1;
+			$scope.thingCount = 0;
 		});
 	</script>
 </html>
