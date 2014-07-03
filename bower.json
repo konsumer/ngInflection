@@ -10,12 +10,21 @@
   "keywords": [
     "angular",
     "inflection",
-    "plural",
-    "singular",
-    "oridinal",
-    "camel-case",
+    "inflections",
+    "inflection-js",
+    "pluralize",
+    "singularize",
+    "camelize",
+    "underscore",
     "humanize",
-    "title"
+    "capitalize",
+    "dasherize",
+    "titleize",
+    "demodulize",
+    "tableize",
+    "classify",
+    "foreign_key",
+    "ordinalize"
   ],
   "license": "MIT",
   "ignore": [
