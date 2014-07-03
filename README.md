@@ -31,6 +31,8 @@ Use it in your templates, like this:
 {{ myThing | pluralize | titleize }}
 ```
 
+You can see more examples in `index.html`.
+
 ### ngPluralize
 
 [ngPluralize](https://docs.angularjs.org/api/ng/directive/ngPluralize) is useful for outputting numeric amounts of things.  If the name of the thing is unknown, and could be plural or singular, and the amount is unknown, you can use ngInflection with ngPluralize to work out the permutations of the string.  Here is a cool example:

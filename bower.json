@@ -19,11 +19,9 @@
   ],
   "license": "MIT",
   "ignore": [
-    "**/.*",
-    "node_modules",
     "bower_components",
-    "test",
-    "tests"
+    "index.html",
+    "README.md"
   ],
   "dependencies": {
     "angular": ">1.0.0",
