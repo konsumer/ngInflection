@@ -180,7 +180,7 @@ Output a classy version of a string. Use it like this:
 
 #### [foreign_key](https://github.com/dreamerslab/node.inflection#inflectionforeign_key-str-dropidubar-)
 
-Output a classy version of a string. Use it like this:
+Output a foreign_key version of a string. Use it like this:
 
 ```html
 {{ 'cool_thing' | foreign_key }} outputs cool_thing_id.
