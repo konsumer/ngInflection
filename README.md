@@ -88,6 +88,31 @@ Sometimes, you might want to use a special word when a plural is detected:
 {{ 'people' | singularize:'best bud' }} outputs best bud.
 ```
 
+#### [inflect](https://github.com/dreamerslab/node.inflection#inflectioninflect-str-count-singular-plural-)
+
+Output a singular or plural of a string based on a number. Use it like this:
+
+```html
+{{ 'person' | inflect:0 }} outputs people.
+```
+
+```html
+{{ 'people' | inflect:1 }} outputs person.
+```
+
+```html
+{{ 'person' | inflect:2 }} outputs people.
+```
+
+You can also pass in special words for both singular and plural:
+
+```html
+{{ 'people' | inflect:1:'best bud':'bestest buds' }} outputs best bud.
+```
+
+```html
+{{ 'people' | inflect:2:'best bud':'bestest buds' }} outputs bestest buds.
+```
 
 #### [camelize](https://github.com/dreamerslab/node.inflection#inflectioncamelize-str-lowfirstletter-)
 
