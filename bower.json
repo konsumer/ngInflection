@@ -14,6 +14,7 @@
     "inflection-js",
     "pluralize",
     "singularize",
+    "inflect",
     "camelize",
     "underscore",
     "humanize",
@@ -34,6 +35,6 @@
   ],
   "dependencies": {
     "angular": ">1.0.0",
-    "inflection": ">1.3.0"
+    "inflection": "~1.4.0"
   }
 }
