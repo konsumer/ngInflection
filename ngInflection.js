@@ -14,4 +14,4 @@ angular.module('ngInflection', [])
 	.filter('classify', function () { return function(string) { if (string) return inflection.classify.apply(this, arguments); } })
 	.filter('foreign_key', function () { return function(string) { if (string) return inflection.foreign_key.apply(this, arguments); } })
 	.filter('ordinalize', function () { return function(string) { if (string) return inflection.ordinalize.apply(this, arguments); } })
-	.filter('transform', function () { return function(string,arr) { if (string && arr) return inflection.transform.apply(this, arguments); } })
+	.filter('transform', function () { return function(string,arr) { if (string && arr) return inflection.transform.apply(this, arguments); } });
