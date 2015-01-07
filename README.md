@@ -238,7 +238,17 @@ This lets us detect if an Array contains a given element. This did not seem supe
 
 #### [transform](https://github.com/dreamerslab/node.inflection#inflectiontransform-str-arr-)
 
-This will execute an array of transforms. Since you can pipe filters in angular templates, I'm really not sure why this would be useful, but I included it for the sake of completeness. A more readable way to do the same thing would look like this:
+This will execute an array of transforms. Since you can pipe filters in angular templates, this is best used from the filter service, ot in actual templates. It works like this:
+
+```
+filter('manipulateThingFromApi', function($filter) {
+  return function(apiThing) {
+    //manipulate api things
+    return $filter('transform')(apiThing, ['pluralize', 'titleize']);
+  }
+}
+```
+To do the same things in a template, use Angular's pipe syntax, like so:
 
 ```html
 {{ 'cool thing' | pluralize | titleize }} outputs Cool Things
