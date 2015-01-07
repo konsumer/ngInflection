@@ -240,7 +240,7 @@ This lets us detect if an Array contains a given element. This did not seem supe
 
 This will execute an array of transforms. Since you can pipe filters in angular templates, this is best used from the filter service, ot in actual templates. It works like this:
 
-```
+```javascript
 filter('manipulateThingFromApi', function($filter) {
   return function(apiThing) {
     //manipulate api things
