@@ -1,3 +1,7 @@
+if (require && module && (!angular && !inflection)){
+	var angular = require('angular');
+	var inflection = require('inflection');
+}
 angular.module('ngInflection', [])
 	.filter('indexOf', function () { return function(arr) { if (arr) return inflection.indexOf.apply(this, arguments); } })
 	.filter('pluralize', function () { return function(string) { if (string) return inflection.pluralize.apply(this, arguments); } })
