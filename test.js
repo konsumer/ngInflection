@@ -5,6 +5,8 @@
 var inflection = require( 'inflection' );
 var should     = require( 'should' );
 
+/*global describe, it, before, beforeEach, after, afterEach */
+
 describe( 'test .version', function (){
   it( 'should match proper version format', function (){
     inflection.version.should.match( /^\d+\.\d+\.\d+$/ );
