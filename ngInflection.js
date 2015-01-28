@@ -1,4 +1,4 @@
-if (require && module && (!angular && !inflection)){
+if (typeof require !== 'undefined' && typeof module !== 'undefined'){
 	var angular = require('angular');
 	var inflection = require('inflection');
 }

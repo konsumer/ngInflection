@@ -18,6 +18,13 @@ Here is an example using script tags from CDNs for the whole stack, without bowe
 <script src="https://cdn.rawgit.com/konsumer/ngInflection/master/ngInflection.js"></script>
 ```
 
+You can also use browserify, like this:
+
+```javascript
+angular = require('angular');
+require('ngInflection');
+```
+
 Once you have the code loaded, add it to your app, along with your other Angular dependencies:
 
 ```javascript

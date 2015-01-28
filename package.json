@@ -1,0 +1,42 @@
+{
+  "name": "nginflection",
+  "main": "ngInflection.js",
+  "version": "1.1.0",
+  "homepage": "https://github.com/konsumer/ngInflection",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/konsumer/ngInflection.git"
+  },
+  "bugs": {
+    "url": "https://github.com/konsumer/ngInflection/issues"
+  },
+  "authors": [
+    "David Konsumer <konsumer@jetboystudio.com>"
+  ],
+  "description": "Angular filters for inflection",
+  "keywords": [
+    "angular",
+    "inflection",
+    "inflections",
+    "inflection-js",
+    "pluralize",
+    "singularize",
+    "inflect",
+    "camelize",
+    "underscore",
+    "humanize",
+    "capitalize",
+    "dasherize",
+    "titleize",
+    "demodulize",
+    "tableize",
+    "classify",
+    "foreign_key",
+    "ordinalize"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": ">1.0.0",
+    "inflection": "~1.4.0"
+  }
+}
