@@ -46,6 +46,6 @@
   "scripts": {
     "build": "browserify -s ngInflection -x inflection -x angular -o ngInflection.js .",
     "production": "npm run build && uglifyjs ngInflection.js -o ngInflection.min.js",
-    "deploy": "npm run production && node bump.js"
+    "deploy": "npm run production && node bump.js && npm publish"
   }
 }
