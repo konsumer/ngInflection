@@ -1,5 +1,9 @@
 # ngInflection
 
+[![npm version](https://badge.fury.io/js/ngInflection.svg)](http://badge.fury.io/js/ngInflection)
+[![Build Status](https://travis-ci.org/konsumer/ngInflection.svg?branch=master)](https://travis-ci.org/konsumer/ngInflection)
+[![Code Climate](https://codeclimate.com/github/konsumer/ngInflection/badges/gpa.svg)](https://codeclimate.com/github/konsumer/ngInflection)
+
 Angular filters for [inflection](https://github.com/dreamerslab/node.inflection). It doesn't munge prototype behaviors like [inflection-js](http://code.google.com/p/inflection-js/), so that's good. You can combine the filters to get some pretty cool results with English-language words.
 
 You can see it in action, [here](http://konsumer.github.io/ngInflection/).
