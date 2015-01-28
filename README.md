@@ -4,26 +4,46 @@ Angular filters for [inflection](https://github.com/dreamerslab/node.inflection)
 
 You can see it in action, [here](http://konsumer.github.io/ngInflection/).
 
-## usage
+## installation
 
-Install it with bower, like this: `bower install --save ngInflection`
+You can use this library with requirejs, browserify, bower, or plain browser-globals.
 
-I use [brunch](http://brunch.io/), so this automatically ends up in my bower include. For others you may need to load script tags with your `bower_components`.
+### browserify
 
-Here is an example using script tags from CDNs for the whole stack, without bower:
+`npm install --save nginflection`
+
+In your app-code:
+
+```javascript
+var angular = require('angular');
+var inflection = require('inflection');
+require('nginflection');
+```
+
+
+### bower
+
+`bower install --save ngInflection`
+
+### browser-globals
 
 ```html
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
 <script src="https://cdn.rawgit.com/dreamerslab/node.inflection/master/inflection.min.js"></script>
-<script src="https://cdn.rawgit.com/konsumer/ngInflection/master/ngInflection.js"></script>
+<script src="https://cdn.rawgit.com/konsumer/ngInflection/master/ngInflection.min.js"></script>
 ```
 
-You can also use browserify, like this:
+### requirejs
+
+Download into your requirejs path, then do this:
 
 ```javascript
-angular = require('angular');
-require('ngInflection');
+define(['angular', 'inflection', 'ngInflection'], function(angular, inflection){
+	// do stuff here
+});
 ```
+
+## usage
 
 Once you have the code loaded, add it to your app, along with your other Angular dependencies:
 
