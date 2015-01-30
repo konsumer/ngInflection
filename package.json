@@ -1,7 +1,7 @@
 {
   "name": "nginflection",
   "main": "index.js",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "homepage": "https://github.com/konsumer/ngInflection",
   "repository": {
     "type": "git",
