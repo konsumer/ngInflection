@@ -32,10 +32,12 @@ require('nginflection');
 
 ### browser-globals
 
+Here is how to use it with CDNs & no module-management:
+
 ```html
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
 <script src="https://cdn.rawgit.com/dreamerslab/node.inflection/master/inflection.min.js"></script>
-<script src="https://cdn.rawgit.com/konsumer/ngInflection/master/dist/ngInflection.min.js"></script>
+<script src="https://rawgit.com/konsumer/ngInflection/gh-pages/dist/ngInflection.min.js"></script>
 ```
 
 ### requirejs
