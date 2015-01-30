@@ -2,6 +2,11 @@
 	<head>
 		<title>Tester for ngInflection</title>
 		<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+		<style>
+		.ng-cloak {
+  			display: none !important;
+		}
+		</style>
 	</head>
 	<body ng-controller="TesterCtl">
 		<div class="jumbotron">
@@ -21,7 +26,7 @@
 			</div>
 		</div>
 
-		<div class="container">
+		<div class="container ng-cloak">
 			<p>You have
 				<ng-pluralize count="thingCount"  when="{
 					'0': 'no {{thing | pluralize}}',
