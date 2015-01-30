@@ -4,7 +4,7 @@ Angular filters for [inflection](https://github.com/dreamerslab/node.inflection)
 
 You can see it in action, [here](http://konsumer.github.io/ngInflection/).
 
-[![npm](https://www.npmjs.com/package/nginflection)](https://nodei.co/npm/nginflection.png)
+[![npm](https://nodei.co/npm/nginflection.png)](https://www.npmjs.com/package/nginflection)
 [![Build Status](https://travis-ci.org/konsumer/ngInflection.svg)](https://travis-ci.org/konsumer/ngInflection)
 [![Code Climate](https://codeclimate.com/github/konsumer/ngInflection/badges/gpa.svg?v=1.1.6)](https://codeclimate.com/github/konsumer/ngInflection)
 
