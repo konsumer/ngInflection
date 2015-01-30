@@ -1,7 +1,6 @@
 # ngInflection
 
 [![npm version](https://badge.fury.io/js/nginflection.svg)](http://badge.fury.io/js/nginflection)
-[![Bower version](https://badge.fury.io/bo/ngInflection.svg)](http://badge.fury.io/bo/ngInflection)
 [![Build Status](https://travis-ci.org/konsumer/ngInflection.svg)](https://travis-ci.org/konsumer/ngInflection)
 [![Code Climate](https://codeclimate.com/github/konsumer/ngInflection/badges/gpa.svg?v=1.1.6)](https://codeclimate.com/github/konsumer/ngInflection)
 
