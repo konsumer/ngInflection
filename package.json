@@ -46,9 +46,9 @@
     "uglify-js": "^2.4.16"
   },
   "scripts": {
-    "build": "browserify -s ngInflection -x inflection -x angular -o ngInflection.js .",
-    "production": "npm run build && uglifyjs ngInflection.js -o ngInflection.min.js",
+    "build": "browserify -s ngInflection -x inflection -x angular -o dist/ngInflection.js .",
+    "production": "npm run build && uglifyjs ngInflection.js -o dist/ngInflection.min.js",
     "deploy": "npm run production && node bump.js && npm publish",
-    "test": "mocha test.js"
+    "test": "mocha --bail"
   }
 }
