@@ -1,7 +1,7 @@
 module.exports = function() {
-    var inflection = window ? window.inflection : require('inflection');
-    var angular = window ? window.angular : require('angular');
-    var module = angular.module('ngInflection', []);
+    var inflection = window && window.inflection ? window.inflection : require('inflection');
+    var angular = window && window.angular ? window.angular : require('angular');
+    var app = angular.module('ngInflection', []);
 
     function wrap(op) {
     	return function() {
@@ -32,10 +32,10 @@ module.exports = function() {
     ];
 
     for (var i in ops) {
-    	module.filter(ops[i], wrap(ops[i]));
+    	app.filter(ops[i], wrap(ops[i]));
     }
 
-    module.filter('transform', function () {
+    app.filter('transform', function () {
 		return function(string,arr) {
 			if (string && arr) {
 				return inflection.transform(string, arr);
